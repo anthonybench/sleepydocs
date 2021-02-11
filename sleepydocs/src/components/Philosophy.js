@@ -18,7 +18,8 @@ export default function Philosophy() {
 
     return(
         <Container className={classes.styles}>
-            <h2>Philosophy</h2>
+            <h1>Philosophy</h1>
+            <p>This </p>
         </Container>
     );
 }

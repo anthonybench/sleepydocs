@@ -3,6 +3,7 @@ import Title from './Title';
 import SearchBar from './SearchBar';
 import TableOfContents from './TableOfContents';
 import Philosophy from './Philosophy';
+import TestMarkdown from './TestMarkdown';
 import { makeStyles } from '@material-ui/core/styles';
 import { Container } from '@material-ui/core';
 
@@ -26,6 +27,7 @@ export default function SleepyContainer() {
             <SearchBar />
             <TableOfContents />
             <Philosophy />
+            <TestMarkdown />
         </Container>
     );
 };
