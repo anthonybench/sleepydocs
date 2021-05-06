@@ -1,6 +1,7 @@
 // Components
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
+import { Container } from '@material-ui/core'
 
 // Configurations
 const useStyles = makeStyles((theme) => ({
@@ -33,8 +34,7 @@ export default function SearchBar() {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
-            <div>
+        <Container className={classes.root}>
                 <TextField
                     id="outlined-full-width-basic"
                     label="⠀Search Sleepydocs ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
@@ -43,14 +43,13 @@ export default function SearchBar() {
                     InputLabelProps={{ className: classes.labelText }}
                     placeholder="seek your fortune"
                     defaultValue="seek your fortune"
-                    // helperText="I appear in the bottom left corner"
+                    helperText="I appear in the bottom left corner"
                     fullWidth
                     margin="normal"
                     variant="outlined"
                     className={classes.textField}
-                    // color="secondary"
+                    color="secondary"
                 />
-            </div>
-        </div>
+        </Container>
     );
 };

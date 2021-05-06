@@ -19,7 +19,11 @@ export default function Philosophy() {
     return(
         <Container className={classes.styles}>
             <h1>Philosophy</h1>
-            <p>This </p>
+            <p>
+                This....
+                is...
+                spartaaaaaaa
+            </p>
         </Container>
     );
 }
